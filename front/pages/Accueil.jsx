@@ -1,6 +1,7 @@
 function Accueil() {
     return (
         <div id="Accueil" className="h-screen flex flex-col justify-center text-center items-center p-5 md:p-0">
+            
             <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-2">
                 <h1 className="font-bold text-4xl md:text-5xl">Bonjour, je suis</h1>
                 <h1 className="font-bold text-4xl md:text-5xl text-quatre">Ilona Selbonne</h1>
