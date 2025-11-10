@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+html, body {
+    font-family: "Rubik", sans-serif;
+}
+
+@import "tailwindcss";
+@theme {
+  --color-un: #EDAFB8;
+  --color-deux: #fff7f4;
+  --color-trois: #354635;
+  --color-quatre: #741A28
+}
