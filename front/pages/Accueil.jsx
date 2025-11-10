@@ -9,7 +9,7 @@ function Accueil() {
             <p className="text-xl md:text-1xl max-w-170 my-3">
                 Actuellement étudiante à l'école 42. Je suis à la recherche d'un stage en data/ia ou en développement full stack
             </p>
-            <button className="bg-trois/50 p-3 rounded-full text-white hover:bg-trois/60 transition duration-150"><a href="#Projets">Voir mes projets</a></button>
+            <a className="bg-trois/50 p-3 rounded-full text-white hover:bg-trois/60 transition duration-150" href="#Projets">Voir mes projets</a>
         </div>
     )
 }
