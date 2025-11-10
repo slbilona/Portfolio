@@ -8,7 +8,7 @@ function ProjetsCard({projet}) {
                     <p className="px-2 border-trois rounded-full border-1 m-1">{skill}</p>
                 ))}
             </div>
-            <button className="bg-quatre/90 p-2 rounded-full text-white w-full  hover:bg-quatre transition duration-150"><a href={projet.github} target="_blank">GitHub</a></button>
+            <a href={projet.github} target="_blank" className="bg-quatre/90 p-2 rounded-full text-white w-full  hover:bg-quatre transition duration-150">GitHub</a>
         </div>
     )
 }
