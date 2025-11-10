@@ -11,7 +11,7 @@ html, body {
 @import "tailwindcss";
 @theme {
   --color-un: #EDAFB8;
-  --color-deux: #fff7f4;
+  --color-deux: #f9ece5;
   --color-trois: #354635;
   --color-quatre: #741A28
 }
