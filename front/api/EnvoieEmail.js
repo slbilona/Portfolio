@@ -21,7 +21,8 @@ export default async function handler(req, res) {
       });
       res.status(200).json({ message: "Email envoyé !" });
     } catch (err) {
-      res.status(500).json({ error: "Erreur lors de l'envoi" });
+        console.error("Erreur Nodemailer :", err);
+        res.status(500).json({ error: err.message });
     }
   } else {
     res.status(405).end("Méthode non autorisée");
