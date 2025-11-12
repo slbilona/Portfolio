@@ -9,9 +9,9 @@ function Contact() {
         {id:4, text:"CV", lien:""},
     ]
     return (
-        <div id="Contact" className="flex flex-col justify-center items-center">
+        <div id="Contact" className="flex flex-col justify-center items-center md:mt-15 mb-10">
             <TitreH2 titre="Contact"  couleur="var(--color-trois)" />
-            <ul className="flex flex-row mb-5">
+            <ul className="flex flex-row flex-wrap">
                 {ListContact.map((element) => (
                     <ListContactElement element={element} key={element.id}/>
                 ))}

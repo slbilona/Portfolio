@@ -9,7 +9,7 @@ function Projets() {
     ]
 
     return (
-        <div id="Projets" className="py-15 px-15 flex flex-col justify-center items-center">
+        <div id="Projets" className="p-15 flex flex-col justify-center items-center">
             <TitreH2 titre="Mes projets" couleur="var(--color-quatre)"/>
             <div className="flex flex-col md:flex-row">
                 {projets.map((projet) => (

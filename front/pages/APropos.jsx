@@ -2,7 +2,7 @@ import TitreH2 from "../components/TitreH2"
 
 function APropos() {
     return (
-        <div id="APropos" className="flex flex-col justify-center text-center items-center pt-10 md:pt-5 px-5 md:px-0 pb-5 md:pb-15">
+        <div id="APropos" className="flex flex-col justify-center text-center items-center md:pt-10 px-5 md:px-0 pb-5 md:pb-15">
             <div className="bg-trois/20 rounded-xl px-8 md:px-15 py-4 my-2 md:my-0 md:mx-2 shadow-lg text-center">
                 <TitreH2 titre="À propos de moi" couleur="var(--color-trois)"/>
                 <p className="max-w-170 ">
