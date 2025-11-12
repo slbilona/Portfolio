@@ -5,6 +5,7 @@ import Accueil from '../pages/Accueil'
 import APropos from '../pages/APropos'
 import Projets from '../pages/Projets'
 import Footer from '../components/Footer'
+import Contact from '../pages/Contact'
 import { Analytics } from "@vercel/analytics/react"
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             <Accueil />
             <APropos />
             <Projets />
+            <Contact />
             <Footer />
         </main>
     </div>

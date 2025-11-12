@@ -1,6 +1,6 @@
 function NavLink({text, to}) {
     return (
-        <li className="mx-2 text-black text-xl hover:text-trois/80 transition duration-100"><a href={to}>{text}</a></li>
+        <li className="mx-2 text-black text-xl hover:text-trois/80 transition duration-150"><a href={to}>{text}</a></li>
     )
 }
 

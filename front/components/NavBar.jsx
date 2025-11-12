@@ -7,7 +7,7 @@ function NavBar() {
         {id:3, text:"Contact", to:"#Contact"}
     ]
     return (
-        <nav className="bg-deux sticky z-10 -mb-15 h-15 top-0 flex flex-row justify-around p-4 shadow-lg">
+        <nav className="bg-deux sticky z-10 md:-mb-15 h-15 top-0 flex flex-row justify-around p-4 shadow-lg">
             <div className="font-bold text-2xl text-quatre">
                 <a href="#Accueil">
                     Mon Portfolio
