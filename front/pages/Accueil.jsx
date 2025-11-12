@@ -10,7 +10,7 @@ function Accueil() {
                 <h1 className="font-bold text-4xl md:text-5xl text-quatre">Ilona Selbonne</h1>
             </div>
             <p className="text-xl md:text-1xl max-w-170 my-3">
-                Actuellement étudiante à l'École 42. Je suis à la recherche d'un stage en data/ia ou en développement full stack
+                Actuellement étudiante à l'<a href="https://42.fr/" target="_blank" className="border-un border-b-2 hover:border-b-4 transition-all duration-150">École 42</a>. Je suis à la recherche d'un stage en data/ia ou en développement full stack
             </p>
             <div className="flex flex-row justify-between sm:hidden">
                 <BoutonAccueil contenu="Voir mes projets" to="#Projets"/>
