@@ -12,7 +12,7 @@ export default async function handler(req, res) {
   try {
     const mailgun = new Mailgun(formData);
     const client = mailgun.client({
-      username: "api",
+      username: "api", 
       key: process.env.MAILGUN_API_KEY,   // clé Mailgun
       url: "https://api.mailgun.net",
     });

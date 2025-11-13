@@ -3,7 +3,7 @@ import ProjetsCard from "../components/ProjetsCards"
 
 function Projets() {
     const projets = [
-        {id:1, titre:"Portfolio", description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.", github:"https://github.com/slbilona/Portfolio", skills:["React", "JavaScript", "Tailwind CSS"]},
+        {id:1, titre:"Portfolio", description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.", github:"https://github.com/slbilona/Portfolio", skills:["React", "JavaScript", "Node.js", "Tailwind CSS"]},
         {id:2, titre:"Ft_transcendance", description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.", github:"https://github.com/slbilona/ft_transcendance_3.0", skills:["HTML", "CSS", "Django", "JavaScript", "Bootstrap"]},
         {id:3, titre:"Ft_irc", description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.", github:"https://github.com/slbilona/ft_transcendance_3.0", skills:["C++"]},
     ]
