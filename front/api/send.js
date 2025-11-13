@@ -1,4 +1,6 @@
-import nodemailer from "nodemailer";
+// api/send.js
+import formData from "form-data";
+import Mailgun from "mailgun.js";
 
 export default async function handler(req, res) {
   if (req.method !== "POST") {
@@ -8,21 +10,23 @@ export default async function handler(req, res) {
   const { name, email, message } = req.body;
 
   try {
-    const transporter = nodemailer.createTransport({
-      host: "smtp.office365.com",
-      port: 587,
-      secure: false,
-      auth: {
-        user: process.env.OUTLOOK_USER,
-        pass: process.env.OUTLOOK_PASS,
-      },
+    const mailgun = new Mailgun(formData);
+    const client = mailgun.client({
+      username: "api",
+      key: process.env.MAILGUN_API_KEY,   // clé Mailgun
+      url: "https://api.mailgun.net",
     });
 
-    await transporter.sendMail({
-      from: process.env.OUTLOOK_USER,
-      to: process.env.OUTLOOK_USER,
-      subject: `Message de ${name}`,
-      text: `Nom : ${name}\nEmail : ${email}\n\nMessage :\n${message}`,
+    await client.messages.create(process.env.MAILGUN_DOMAIN, {
+      from: `Formulaire Contact <postmaster@${process.env.MAILGUN_DOMAIN}>`,
+      to: ["ilona.selbonne@outlook.com"], // tu reçois le mail ici
+      subject: `Message de ${name} via formulaire`,
+      text: `
+        Nom : ${name}
+        Email : ${email}
+        Message :
+        ${message}
+      `,
     });
 
     res.status(200).json({ success: true, message: "Message envoyé avec succès !" });

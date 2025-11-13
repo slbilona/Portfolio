@@ -12,7 +12,9 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.16",
     "@vercel/analytics": "^1.5.0",
+    "form-data": "^4.0.4",
     "framer-motion": "^12.23.24",
+    "mailgun.js": "^12.1.1",
     "nodemailer": "^7.0.10",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
