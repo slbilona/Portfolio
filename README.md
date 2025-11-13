@@ -1,4 +1,4 @@
-# Portfolio d'Ilona
+# Portfolio
 
 Bienvenue sur mon portfolio personnel ! Ce site présente mes projets, mes compétences et permet de me contacter directement via un formulaire fonctionnel.
 
