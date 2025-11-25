@@ -11,6 +11,7 @@ import { Analytics } from "@vercel/analytics/react"
 function App() {
   return (
     <div>
+        <Analytics />
         <NavBar />
         <main className='main-content '>
             <Accueil />
