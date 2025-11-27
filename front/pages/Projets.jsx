@@ -5,7 +5,7 @@ function Projets() {
     const projets = [
         {id:1, titre:"Portfolio", description:"Mon portfolio présente mes réalisations en développement web, mes projets personnels et met en avant mes compétences.", github:"https://github.com/slbilona/Portfolio", skills:["React", "JavaScript", "Node.js", "Tailwind CSS"]},
         {id:2, titre:"Ft_transcendance", description:"Un jeu Pong multijoueur en ligne avec gestion de profils, ajout/suppression d’amis, historique des parties et chat en direct.", github:"https://github.com/slbilona/ft_transcendance", skills:["HTML", "CSS", "Django", "JavaScript", "Bootstrap"]},
-        {id:3, titre:"Ft_irc", description:"Un serveur IRC conforme aux standards, permettant la communication en temps réel entre plusieurs clients.", github:"https://github.com/slbilona/ft_irc", skills:["C++"]},
+        {id:3, titre:"Python for Data Science", description:"Une série d’exercices pour apprendre l’analyse de données en Python, incluant entre autre le traitement de datasets, le calcul de statistiques ou encore la manipulation de tableaux et d’images.", github:"https://github.com/slbilona/Python-for-Data-Science", skills:["Python"]},
     ]
 
     return (
